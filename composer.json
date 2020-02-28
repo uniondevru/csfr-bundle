@@ -1,9 +1,9 @@
 {
-    "name": "genedys/csrf-route-bundle",
+    "name": "uniondev/csrf-route-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle which provides a simple way to add CSRF tokens to routes",
     "keywords": ["route", "csrf", "security"],
-    "homepage": "https://github.com/Genedys/csrf-route-bundle",
+    "homepage": "https://github.com/uniondevru/csfr-bundle",
     "license": "MIT",
     "authors": [
         {
