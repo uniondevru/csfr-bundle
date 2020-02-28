@@ -1,0 +1,29 @@
+{
+    "name": "genedys/csrf-route-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle which provides a simple way to add CSRF tokens to routes",
+    "keywords": ["route", "csrf", "security"],
+    "homepage": "https://github.com/Genedys/csrf-route-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Antoine",
+            "email": "fabien@fantoine.fr"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0",
+        "symfony/framework-bundle": "^3.3|^4.0",
+        "symfony/security-csrf": "^3.3|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Genedys\\CsrfRouteBundle\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
